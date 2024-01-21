@@ -8,6 +8,7 @@
 :root{
   font-size: 62.5%;
   --color-orange: #FF9A6C;
+  --color-orange-claro: rgba(255, 155, 108, 0.795);
   --color-white: #ffffff;
   --color-gray: #263138;
 }
@@ -110,9 +111,16 @@ section p{
 }
 
 #clinica{
+  margin-top: 18rem;
+}
+
+#clinica h2{
+  text-align: center;
+}
+
+#clinica .columns{
   display: flex;
   align-items: center;
-  margin-top: 18rem;
   gap: 2rem;
 }
 
@@ -165,7 +173,7 @@ section p{
 
 footer{
   display: flex;
-  background-color: var(--color-orange);
+  background-color: var(--color-orange-claro);
   align-items: center;
   justify-content: space-between;
   padding: 5rem;
@@ -214,9 +222,6 @@ footer div:nth-child(2) a{
   margin-top: 1.2rem;
 }
 
-footer img{
-  /* margin-left: 2rem; */
-}
 .dev{
   background-color: var(--color-gray);
   padding: 2.5rem;
