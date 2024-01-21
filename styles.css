@@ -40,11 +40,17 @@ header nav a{
   font-weight: 700;
 }
 
-main{
-  max-width: 80%;
-  margin: 0 auto;
-  overflow-x: hidden;
+header nav a:hover{
+  color: var(--color-gray);
+}
 
+.logo_PetLife{
+  width: 160px;
+}
+
+main{
+  margin: 0 auto;
+  padding: 0 10rem;
 }
 
 #inicio{
@@ -78,6 +84,10 @@ section p{
   font-size: 1.8rem;
 }
 
+.button:hover{
+  background-color: var(--color-gray);
+}
+
 .button-transparent{
   color: var(--color-orange);
   margin-left: 1rem;
@@ -87,18 +97,126 @@ section p{
   font-size: 1.8rem;
 }
 
+.button-transparent:hover{
+  color: var(--color-gray);
+}
+
 .img_absolute{
   position: absolute;
-  left: 0 ;
-  bottom: 2rem;
+  left: 0;
+  bottom: -20rem;
+  max-width: calc(100vw - 2rem);
   z-index: -1;
-  width: calc(100vw);
 }
 
 #clinica{
-  margin-top: 30rem;
+  display: flex;
+  align-items: center;
+  margin-top: 18rem;
+  gap: 2rem;
 }
 
+#clinica li{
+  font-size: 1.8rem;
+  margin-left: 3.2rem;
+  margin-bottom: 1rem;
+}
+
+#farmacia{
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#farmacia img{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+
+#duvidas{
+  display: flex;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+#duvidas h3{
+  font-size: 2.2rem;
+}
+
+#duvidas p{
+  padding: 1rem 2rem;
+  border-left: .3rem solid var(--color-orange);
+  border-right: .3rem solid var(--color-orange);
+  border-bottom: .3rem solid var(--color-orange);
+  border-radius: 0 0 1rem 1rem;
+}
+
+.pergunta{
+  display: flex;
+  justify-content: space-between;
+  border: .3rem solid var(--color-orange);
+  border-radius: 1rem 1rem 0 0rem;
+  padding: 2rem;
+  cursor: pointer;
+}
+
+footer{
+  display: flex;
+  background-color: var(--color-orange);
+  align-items: center;
+  justify-content: space-between;
+  padding: 5rem;
+}
+
+.footer_grid{
+  display: flex;
+  flex-direction: column;
+  font-size: 1.4rem;
+  gap: 1rem;
+}
+
+footer strong{
+  color: var(--color-white);
+  font-size: 2rem;
+}
+
+footer a{
+  color: var(--color-white);
+  text-decoration: none;
+  
+  font-weight: 600;
+  font-size: 1.6rem;
+}
+
+footer p{
+  margin-top: 1rem;
+  font-size: 1.6rem;
+  line-height: 150%;
+  font-weight: 600;
+}
+
+footer a:hover{
+  color: var(--color-gray);
+}
+
+footer div:nth-child(1){
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer div:nth-child(2) a{
+  margin-left: 1.2rem;
+  margin-top: 1.2rem;
+}
+
+footer img{
+  /* margin-left: 2rem; */
+}
 .dev{
   background-color: var(--color-gray);
   padding: 2.5rem;
@@ -114,4 +232,8 @@ section p{
   text-decoration: none;
   font-weight: bold;
   font-size: 1.2rem;
+}
+
+.dev a:hover{
+  color: var(--color-orange);
 }
