@@ -3,15 +3,25 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
   <meta name="description" 
     content="Garanta uma vida longa para e cheia de alegria para seu amigo">
+  
   <title>PetLife</title>
-  <link rel="stylesheet" href="style.css">
+  
+  <link rel="shortcut icon" type="imagex/png" href="./src/assets/icon_pet.png">
+
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
   <header>
     <a href="index.html">
-      <img src="/src/assets/logo.svg" alt="Logo da PetLife"/>
+      <img src="/src/assets/logo-white.svg" alt="Logo da PetLife"/>
     </a>
     <nav>
       <a href="#inicio">Inicio</a>
@@ -36,11 +46,12 @@
           oferecemos uma experiência acolhedora e personalizada, 
           garantindo o bem estar, a saúde e a felicidade dos seus animais de estimação.
         </p>
-        <a href="https://wa.me/5522987654321" target="_blank">Marque uma Consulta</a>
-        <a href="#clinica">Conheça a nossa clínica</a>
+        <a class="button" href="https://wa.me/5522987654321" target="_blank">Marque uma Consulta</a>
+        <a class="button-transparent" href="#clinica">Conheça a nossa clínica</a>
       </div>
     </section>
-
+    <img class="img_absolute" src="./src/assets/shape.svg" alt="">
+    
     <section id="clinica">
       <div>
         <h2>Cuidado veterinário de qualidade</h2>
@@ -156,9 +167,9 @@
         <p>Endereço: Avenida 7 de setembro, n° 42, centro</p>
       </div>
     </footer>
-    <div>
-      <p>Desenvolvido por <a href="https://github.com/MarcosAlmeidaFreitas" target="_blank">Marcos Antonio Almeida</a> na trilha Start da OneBitCode</p>
-    </div>
   </main>
+  <div class="dev">
+    <p>Desenvolvido por <a href="https://github.com/MarcosAlmeidaFreitas" target="_blank">Marcos Antonio Almeida</a> na trilha Start da OneBitCode</p>
+  </div>
 </body>
 </html>
