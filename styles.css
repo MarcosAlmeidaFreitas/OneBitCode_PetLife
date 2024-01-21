@@ -255,7 +255,7 @@ footer div:nth-child(2) a{
   color: var(--color-orange);
 }
 
-@media (max-width: 1300px) {
+@media(max-width: 1300px) {
   #inicio{
     display: flex;
     flex-direction: column;
