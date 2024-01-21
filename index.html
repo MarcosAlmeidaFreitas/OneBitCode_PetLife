@@ -34,11 +34,11 @@
   
   <main>
     <section id="inicio">
-      <img src="./src/assets/start-img.svg" 
+      
+      <img src="./src/assets/start-img.svg" class="reduzirImagem"
         alt="Ilustração de uma menina brincando com o seu Cachorro"
-        width="580" height="580"
       >
-
+      
       <div>
         <h1>Garanta uma vida longa e cheia de alegria para o seu melhor amigo</h1>
         <p>
@@ -50,8 +50,8 @@
         <a class="button" href="https://wa.me/5522987654321" target="_blank">Marque uma Consulta</a>
         <a class="button-transparent" href="#clinica">Conheça a nossa clínica</a>
       </div>
+      <!-- <img class="img_absolute" src="./src/assets/shape.svg" alt=""> -->
     </section>
-    <img class="img_absolute" src="./src/assets/shape.svg" alt="">
     
     <section id="clinica">
       <h2>Cuidado veterinário de qualidade</h2>
@@ -74,7 +74,7 @@
           </ul>
         </div>
         <!-- Colocando a tag loading você consegue definir que a imagem não carregará no inicio do carregamento do site só quando o usuário rolar a pagina-->
-        <img src="./src/assets/clinic-img.svg" alt="veterinário inspecionando um doguinho" width="480" height="480" loading="lazy">  
+        <img src="./src/assets/clinic-img.svg" alt="veterinário inspecionando um doguinho" class="reduzirImagem" loading="lazy">  
       </div>
       
     </section>
@@ -83,7 +83,7 @@
       <h2>Venha conferir o nosso petshop e farmácia</h2>
       <img src="./src/assets/shop-img.svg" 
         alt="ilustração de uma veterinária em um petshop atrás de um balcão" 
-        width="645" height="430" loading="lazy"
+        loading="lazy" 
       >
       <p>
         Além de ser uma clínica veterinária de confiança, também contamos com um completo petshop e farmácia.
@@ -97,10 +97,12 @@
     </section>
     
     <section id="duvidas">
-      <img src="./src/assets/faq-img.svg" 
-        alt="ilustração de uma pessoa com uma duvida em frente ao computador" 
-        width="540" height="540" loading="lazy"
-      >
+      <div>
+        <img src="./src/assets/faq-img.svg" 
+          alt="ilustração de uma pessoa com uma duvida em frente ao computador" 
+          class="reduzirImagem" loading="lazy"
+        >
+      </div>
       <div>
         <h2>Ficou com alguma dúvida?</h2>
         
