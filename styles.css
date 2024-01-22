@@ -260,6 +260,17 @@ footer div:nth-child(2) a{
     display: flex;
     flex-direction: column;
   }
+
+  .inicio_buttons{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+  }
+
+  .inicio_buttons a{
+    padding: auto;
+  }
+
   
   #duvidas{
     display: flex;
@@ -315,5 +326,52 @@ footer div:nth-child(2) a{
   #clinica .columns{
     display: flex;
     flex-direction: column;
+  }
+}
+
+@media(max-width: 850px){
+  header{
+    padding: 2rem 2rem;
+  }
+
+  header nav{
+    gap: 2rem;
+  }
+
+  header nav a{
+    font-size: 1.8rem;
+  }
+}
+
+@media(max-width: 850px){
+  header{
+    padding: 2rem 2rem;
+  }
+
+  header nav{
+    gap: 2rem;
+  }
+
+  header nav a{
+    font-size: 1.8rem;
+  }
+}
+
+@media(max-width: 600px){
+  header{
+    
+    padding-left: 1rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-right: 1rem;
+    display: grid;
+    grid-template-columns: 1 1fr;
+    justify-content: center;
+  }
+  
+  header nav{
+    margin-top: 2.4rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
   }
 }
